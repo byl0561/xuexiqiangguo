@@ -1,8 +1,5 @@
 #!/bin/sh
 
-# 初始化
-rm /tmp/.X9-lock
-
 # 运行 xvfb
 Xvfb -ac -screen scrn 1280x2000x24 :9.0 &
 
