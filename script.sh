@@ -1,5 +1,9 @@
 #!/bin/sh
 
+# 清理
+rm /tmp/.X9-lock
+ps -ef | grep Xvfb | grep -v grep | cut -c 9-15 | xargs kill -9
+
 # 运行 xvfb
 Xvfb -ac -screen scrn 1280x2000x24 :9.0 &
 
