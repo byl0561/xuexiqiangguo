@@ -9,3 +9,13 @@ Fuck 学习强国的Docker镜像
 ## Fuck 学习强国仓库链接
 
 https://github.com/fuck-xuexiqiangguo/Fuck-XueXiQiangGuo
+
+## 历史版本
+
+### r2
+
+* 修复了镜像重启后xvfb文件锁阻塞的bug.
+
+### r1
+
+* 发布.
